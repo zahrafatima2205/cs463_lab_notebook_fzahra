@@ -16,8 +16,44 @@
   </head>
   <body>
     <main>
-      <table>
+      <table border="1">
         <!-- Add your code here -->
+        <thead>
+          <tr>
+            <!-- table row -->
+            <th>First Name</th>
+            <!-- table heading -->
+            <th>Last Name</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- table body -->
+          <tr>
+            <td>Spongebob</td>
+            <!-- table data -->
+            <td>Squarepants</td>
+            <td>spongebob@sponge.world</td>
+          </tr>
+          <tr>
+            <td>Patrick</td>
+            <td>Star</td>
+            <td>patrick@sponge.world</td>
+          </tr>
+          <tr>
+            <td>Sandy</td>
+            <td>Cheeks</td>
+            <td>sandy@sponge.world</td>
+          </tr>
+          <tr>
+            <td colspan="2" rowspan="2">Mr Krabs</td>
+            <!-- makes the name span 2 columns and 2 rows -->
+            <td>mrk@sponge.world</td>
+          </tr>
+          <tr>
+            <td>mrkrabs@sponge.world</td>
+          </tr>
+        </tbody>
       </table>
     </main>
   </body>
