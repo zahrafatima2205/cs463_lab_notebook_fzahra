@@ -2,3 +2,14 @@
   width: 600px;
   margin: 40px auto;
 }
+
+/* targetting first letter within each paragraph element */
+p::first-letter {
+  font-size: 3em;
+}
+
+/* one colon for pseudo classes */
+/* when mouse hovers over the element */
+p:hover {
+  background-color: lightskyblue;
+}
