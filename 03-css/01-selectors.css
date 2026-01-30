@@ -10,12 +10,40 @@
 
 /* Use attribute selectors for the first part of the exercise */
 
-li[class] {
+/*li[class] {
   color: var(--red);
+}*/
+
+/* cat is teal */
+li[id="cat"] {
+  color: var(--teal);
+}
+
+/* parrot is green */
+li[class^="p"] {
+  color: var(--green);
+}
+
+/* now anything else with do is royal blue */
+li[class*="do"] {
+  color: var(--royalblue);
+}
+
+/* dog and hedgehog both end in g and are violet */
+li[class$="g"] {
+  color: var(--violet);
 }
 
 /* Use descendant, child, and sibling selectors for the second part */
 
 section li {
   color: var(--green);
+}
+
+.first ~ li {
+  color: var(--magenta);
+}
+
+.second + li {
+  color: var(--royalblue);
 }
