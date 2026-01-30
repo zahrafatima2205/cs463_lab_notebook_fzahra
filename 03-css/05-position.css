@@ -29,13 +29,13 @@
   background-color: var(--purple);
 }
 
-/* !! should it be 70 like the video or 50 like the screenshot */
+/* used 70 instead of the 50 in the screenshot */
 .absolute {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 50px;
+  height: 70px;
   background-color: var(--maroon);
 }
 
@@ -44,6 +44,6 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 50px;
+  height: 70px;
   background-color: var(--darkgolden);
 }
