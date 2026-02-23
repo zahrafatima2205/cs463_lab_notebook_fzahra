@@ -25,6 +25,7 @@ userInput2.addEventListener("input", handleInput);
 
 let section = document.querySelector("#inputEventExample");
 let element = document.createElement("div");
+
 element.setAttribute("class", "output");
 section.append(element);
 
