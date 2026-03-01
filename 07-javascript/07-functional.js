@@ -41,7 +41,6 @@ const reduceHouses = (characters) => {
   //const reducer = (accumulator, current) => accumulator + current.id;
   //const sum = characters.reduce(reducer, 0);
   //const sum = characters.reduce((acc, curr) => acc + curr.id, 10000);
-
   const houses = characters.reduce((acc, curr) => {
     //if (acc.hasOwnProperty(curr.house)) {
     //  acc[curr.house]++;
